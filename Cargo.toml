@@ -1,0 +1,22 @@
+[package]
+name = "xor-github"
+version = "0.1.0"
+authors = ["XOR·APPS <developers@xorapps.cloud>"]
+edition = "2021"
+description = "Data Structures to parse Github API"
+keywords = ["XOR·APPS"]
+categories = []
+documentation = "https://docs.rs/xor-github"
+repository = "https://github.com/xorapps/xor-github.git"
+homepage = "https://xorapps.cloud/libraries/xor-github"
+readme = "README.md"
+license = "MPL-2.0"
+
+[badges]
+maintenance = { status = "passively-maintained" }
+
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+serde = { version = "1.0.152", features = ["derive"] }
